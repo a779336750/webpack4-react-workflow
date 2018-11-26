@@ -10,15 +10,15 @@ module.exports = merge(common, {
     contentBase: './dev',
     hot: true
   },
-  // eslint: {
-  //     configFile: './.eslintrc'
-  // },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.template.html'),
       inject: true
     }),
     new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.DefinePlugin({
+      'process.env': { NODE_ENV: '"development"' }
+    })
   ]
 });

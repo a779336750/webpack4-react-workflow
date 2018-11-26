@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const common = require('./webpack.common');
 const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 module.exports = merge(common, {
   mode: 'production',
@@ -35,6 +36,9 @@ module.exports = merge(common, {
     new UglifyJSPlugin({
       sourceMap: true
     }),
-    new webpack.HashedModuleIdsPlugin()
+    new webpack.HashedModuleIdsPlugin(),
+    new webpack.DefinePlugin({
+      'process.env': { NODE_ENV: '"production"' }
+    })
   ]
 });
