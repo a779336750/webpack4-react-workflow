@@ -1,0 +1,32 @@
+.flowerSpinner {
+  width: 232px;
+  height: 232px;
+  position: relative;
+  .animation {
+    animation: flowerSpinner 5s linear infinite;
+    background: url(./images/flower-spinner-bg.png) no-repeat;
+    background-size: cover;
+    width: 232px;
+    height: 232px;
+    @keyframes flowerSpinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .text {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('../flower-spinner/images/flower-spinner-text.png') no-repeat;
+    background-size: 88px 86px;
+    width: 88px;
+    height: 86px;
+  }
+}

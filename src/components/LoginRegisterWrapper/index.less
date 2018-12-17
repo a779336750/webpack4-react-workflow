@@ -1,0 +1,99 @@
+/**
+ * 默认颜色配置
+ */
+
+// 登录框背景
+@background: #ffffff;
+// 按钮文字颜色
+@buttonTextColor: #ffffff;
+// 按钮背景颜色
+@buttonColor: #1aad19;
+// 输入框文字颜色
+@inputTextColor: #555555;
+// 输入框placeholder文字颜色
+@placeholderColor: #b2b2b2;
+// 表单标题文字颜色
+@titleTextColor: #888888;
+// 链接按钮文字颜色
+@linkTextColor: #135b8e;
+// 错误提示文字颜色
+@errorTipColor: #ff6c23;
+// 输入框之间分隔线的颜色
+@seperatorColor: transparent;
+
+.modalWrapperNode {
+  font-family: Microsoft Yahei;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: @background;
+
+  // input的自定义样式写在这里，为了避免全局污染 Input
+  :global {
+    .field-item {
+      border-color: @seperatorColor !important;
+    }
+    .error-tip {
+      font-size: 24px;
+      color: @errorTipColor;
+      margin-left: 26px;
+    }
+    .agreement-link {
+      a {
+        color: #7a7a7a;
+      }
+    }
+    .extra-nav-link {
+      color: @linkTextColor;
+    }
+    .form-title {
+      color: @titleTextColor;
+    }
+    .button {
+      color: @buttonTextColor;
+      background-color: @buttonColor;
+    }
+    .am-list-item {
+      min-height: 60px !important;
+      height: 60px !important;
+    }
+    .am-list-item .am-input-label {
+      font-size: 26px;
+      // text-align-last: justify;
+    }
+    .am-list-item .am-list-line {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #cccccc !important;
+    }
+    .loginInput {
+      height: 60px;
+      background-color: transparent;
+      input {
+        font-size: 26px;
+        color: @inputTextColor !important;
+        &::placeholder {
+          color: @placeholderColor !important;
+          font-size: 26px;
+          opacity: 1;
+        }
+      }
+      .am-input-clear-active {
+        background-color: @buttonColor;
+      }
+    }
+  }
+}
+
+// 极验验证码的框放大到1.8倍
+:global {
+  .geetest_wind.geetest_panel .geetest_panel_box {
+    transform: scale(1.8) translate(-28%, -28%) !important;
+  }
+  .confirm-exit {
+    // 退出登录确认框的【退出】颜色
+    color: @errorTipColor;
+  }
+}

@@ -1,0 +1,23 @@
+@prefixCls: full_screen_scroll;
+
+.full_screen_scroll {
+  height: 100%;
+  & > div {
+    height: 100%;
+    width: 100%;
+  }
+  .swiper_wrapper, .swiper_wrapper > div {
+    height: 100%;
+    width: 750px;
+  }
+}
+.swiperSlide {
+  width: 750px;
+  height: 100% !important;
+}
+.swiperSlide > div {
+  height: 100%;
+  width: 750px;
+  transform: scale(1);
+}
+
