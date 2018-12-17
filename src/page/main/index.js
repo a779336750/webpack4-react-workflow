@@ -4,9 +4,7 @@ export default class Main extends React.Component {
   constructor(props) {
     super(props);
   }
-  componentDidMount() {
-
-  }
+  componentDidMount() {}
   render() {
     const { pop } = this.props;
     return <div>{pop}</div>;
