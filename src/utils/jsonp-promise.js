@@ -4,7 +4,7 @@ export default function(link, option) {
   let url = link;
   if (option) {
     url = url + '?';
-    for (index in option) {
+    for (let index in option) {
       url = url + index + '=' + option[index] + '&';
     }
     url = url + 'callback=' + '_jp' + id;
