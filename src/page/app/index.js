@@ -1,14 +1,9 @@
 import React from 'react';
 import Main from '../main';
 import { hot } from 'react-hot-loader';
-import { isTypeOf } from '../../utils/type-utils';
-import {
-  objectToJson,
-  base64UrlEncode,
-  base64UrlDecode,
-  getUrlParams
-} from '../../utils/data-utils';
 import { Base64 } from 'js-base64';
+import * as deviceUtils from '../../utils/device-utils';
+
 class App extends React.Component {
   constructor() {
     super();
@@ -17,9 +12,11 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
-    console.log(base64UrlEncode(location.href));
-    console.log(base64UrlDecode(base64UrlEncode(location.href)));
-    console.log(getUrlParams());
+    console.log(deviceUtils.isAndroid());
+    console.log(deviceUtils.isIOS());
+    console.log(deviceUtils.isMobile());
+    console.log(deviceUtils.isWeiXin());
+    console.log(deviceUtils.isIE());
   }
   onClick() {
     this.setState({
