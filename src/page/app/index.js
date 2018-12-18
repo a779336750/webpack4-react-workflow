@@ -1,13 +1,13 @@
 import React from 'react';
 import Main from '../main';
 import { hot } from 'react-hot-loader';
-import { isTypeOf } from '../../utils/utils/type-utils';
+import { isTypeOf } from '../../utils/type-utils';
 import {
   objectToJson,
   base64UrlEncode,
   base64UrlDecode,
   getUrlParams
-} from '../../utils/utils/data-utils';
+} from '../../utils/data-utils';
 import { Base64 } from 'js-base64';
 class App extends React.Component {
   constructor() {
