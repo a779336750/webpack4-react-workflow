@@ -1,7 +1,7 @@
 import React from 'react';
-import Main from '../main';
 import { hot } from 'react-hot-loader';
 import { Base64 } from 'js-base64';
+import { isDev } from '../../utils/env.utils';
 import * as deviceUtils from '../../utils/device-utils';
 
 class App extends React.Component {
@@ -17,6 +17,8 @@ class App extends React.Component {
     console.log(deviceUtils.isMobile());
     console.log(deviceUtils.isWeiXin());
     console.log(deviceUtils.isIE());
+    console.log(process.env.NODE_ENV);
+    console.log(isDev());
   }
   onClick() {
     this.setState({
@@ -27,7 +29,6 @@ class App extends React.Component {
     return (
       <div>
         <button onClick={this.onClick.bind(this)}>change</button>
-        <Main pop={this.state.pop} />
       </div>
     );
   }
