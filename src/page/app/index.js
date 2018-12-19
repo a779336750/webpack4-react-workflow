@@ -3,6 +3,7 @@ import { hot } from 'react-hot-loader';
 import { Base64 } from 'js-base64';
 import { isDev } from '../../utils/env.utils';
 import invariant from '../../utils/error-utils';
+import { setTitle } from '../../utils/wechat-utils';
 import * as deviceUtils from '../../utils/device-utils';
 
 class App extends React.Component {
@@ -14,6 +15,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     invariant([], '不能为空字符串');
+    setTitle('hahahahaha');
   }
   onClick() {
     this.setState({

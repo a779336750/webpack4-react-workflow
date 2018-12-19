@@ -8,11 +8,14 @@ module.exports = merge(common, {
   devtool: 'cheap-module-eval-source-map',
   devServer: {
     contentBase: './dev',
-    hot: true
+    hot: true,
+    host: '10.11.135.29',
+    port: 8081
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.template.html'),
+      favicon: path.resolve(__dirname, 'public/favicon-114x114.png'),
       inject: true
     }),
     new webpack.NamedModulesPlugin(),
