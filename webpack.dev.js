@@ -13,11 +13,6 @@ module.exports = merge(common, {
     port: 8081
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src/index.template.html'),
-      favicon: path.resolve(__dirname, 'public/favicon-114x114.png'),
-      inject: true
-    }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({

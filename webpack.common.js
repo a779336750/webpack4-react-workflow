@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
   module: {
     // parser: 'sugarss',
@@ -34,7 +33,6 @@ module.exports = {
               importLoaders: 1
             }
           }
-          // 'postcss-loader'
         ]
       },
       {
@@ -50,7 +48,6 @@ module.exports = {
           {
             loader: 'less-loader' // compiles Less to CSS
           }
-          // 'postcss-loader'
         ]
       },
       {
@@ -103,10 +100,13 @@ module.exports = {
     ]
   },
   plugins: [
-    // {
-    //     'postcss-import': {},
-    //     'postcss-cssnext': {},
-    //     'cssnano': {}
-    // }
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'src/index.template.html'),
+      favicon: path.resolve(__dirname, 'public/favicon-114x114.png'),
+      inject: true
+    }),
+    new webpack.DefinePlugin({
+      '@src': path.resolve(__dirname, 'src')
+    })
   ]
 };

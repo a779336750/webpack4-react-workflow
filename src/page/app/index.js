@@ -5,6 +5,7 @@ import { isDev } from '../../utils/env.utils';
 import invariant from '../../utils/error-utils';
 import { setTitle } from '../../utils/wechat-utils';
 import * as deviceUtils from '../../utils/device-utils';
+import { horizontalTips, verticalTips } from '../../utils/flip-tips';
 
 class App extends React.Component {
   constructor() {
@@ -14,8 +15,7 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
-    invariant([], '不能为空字符串');
-    setTitle('hahahahaha');
+    horizontalTips();
   }
   onClick() {
     this.setState({
