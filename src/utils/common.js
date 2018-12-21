@@ -45,35 +45,6 @@ export function getDocumentSize() {
 }
 
 /**
- * 整合cookie相关操作
- * name:cookie名
- * value:cookie值
- * number:cookie保存时间
- */
-export let Cookie = {
-  setCookie: function(name, value, iDay) {
-    let oDate = new Date();
-    oDate.setDate(oDate.getDate() + iDay);
-    document.cookie = name + '=' + value + ';expires=' + oDate;
-  },
-  //获取cookie
-  getCookie: function(name) {
-    let arr = document.cookie.split('; ');
-    for (let i = 0; i < arr.length; i++) {
-      let arr2 = arr[i].split('=');
-      if (arr2[0] === name) {
-        return arr2[1];
-      }
-    }
-    return '';
-  },
-  //删除cookie
-  removeCookie: function(name) {
-    this.setCookie(name, 1, -1);
-  }
-};
-
-/**
  * 数组排序:
  * @param arr:需要改变顺序的数组
  * @param sortMethods:具有两个值:'up'代表升序,'dowm'代表降序
@@ -123,40 +94,6 @@ export function countDown(deadLine) {
       }, i * 1000);
     })(i);
   }
-}
-
-export function deepCopy(initObj, newObj) {
-  let obj = newObj || {};
-  for (let i in initObj) {
-    let prop = initObj[i];
-    if (prop === obj) {
-      continue;
-    }
-    //防止自身调用产生死循环
-    if (typeof prop === 'object') {
-      if (prop.constructor === Array) {
-        obj[i] = [];
-      } else {
-        obj[i] = {};
-      }
-      deepCopy(prop, obj[i]);
-    } else {
-      obj[i] = prop;
-    }
-  }
-  return obj;
-}
-
-/**
- * JSONParse实现的深拷贝
- * @param obj:被拷贝的对象
- * @returns {any}:一个新的对象
- * 注意:constructor始终为Object,只适用于扁平的对象，如Number,Array,String,扁平对象
- */
-export function deepCopyByJSONParse(obj) {
-  let newObj = {};
-  newObj = JSON.parse(JSON.stringify(obj));
-  return newObj;
 }
 
 //
@@ -211,15 +148,6 @@ export function create(tag, attrs) {
     throw new Error('type of attr must be "object"');
   }
   return ele;
-}
-
-export function toArray(html_collection) {
-  // html集合转数组
-  let arr = [];
-  for (let i = 0; i < html_collection.length; i++) {
-    arr[i] = html_collection[i];
-  }
-  return arr;
 }
 
 /**

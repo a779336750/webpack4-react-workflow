@@ -66,3 +66,16 @@ export function withoutProps(obj, keys) {
 
   return target;
 }
+
+/**
+ * html集合转数组
+ * @param html_collection
+ * @return {Array}
+ */
+export function htmlToArray(html_collection) {
+  let arr = [];
+  for (let i = 0; i < html_collection.length; i++) {
+    arr[i] = html_collection[i];
+  }
+  return arr;
+}
