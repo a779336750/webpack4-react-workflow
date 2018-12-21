@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/designing-mode-utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/designing-mode-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/designing-mode-utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,7 +21,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/app/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="266">
               <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -35,7 +33,7 @@
       <file leaf-file-name="type-utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/type-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="950">
               <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
             </state>
           </provider>
@@ -53,7 +51,7 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
+            <state relative-caret-position="2907">
               <caret line="153" column="23" lean-forward="true" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
             </state>
           </provider>
@@ -62,8 +60,8 @@
       <file leaf-file-name="designing-mode-utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils/designing-mode-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -80,7 +78,7 @@
       <file leaf-file-name="data-utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="247">
               <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -351,7 +349,8 @@
       <workItem from="1545190267014" duration="3821000" />
       <workItem from="1545276100868" duration="4027000" />
       <workItem from="1545313543149" duration="11000" />
-      <workItem from="1545375376755" duration="3251000" />
+      <workItem from="1545375376755" duration="3444000" />
+      <workItem from="1545378886076" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -451,27 +450,33 @@
       <option name="project" value="LOCAL" />
       <updated>1545376174976</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="工具类库：&#10;新增设计模式工具类库designing-mode-utils">
+      <created>1545378683052</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545378683052</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68282000" />
+    <option name="totallyTimeSpent" value="69074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37599364" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30931264" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30931264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.18514413" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -500,7 +505,8 @@
     <MESSAGE value="新增flip-tips工具类库，提示横屏浏览或者竖屏浏览" />
     <MESSAGE value="新增rem.js工具类库，实现移动端弹性布局" />
     <MESSAGE value="工具类库：&#10;1.data-utils.js新增htmlToArray方法，用于html集合转数组&#10;2.新增copy-utils.js，用于拷贝相关类库（深拷贝）" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具类库：&#10;1.data-utils.js新增htmlToArray方法，用于html集合转数组&#10;2.新增copy-utils.js，用于拷贝相关类库（深拷贝）" />
+    <MESSAGE value="工具类库：&#10;新增设计模式工具类库designing-mode-utils" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具类库：&#10;新增设计模式工具类库designing-mode-utils" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/type-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="950">
           <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
         </state>
       </provider>
@@ -775,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="247">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -792,14 +798,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
+        <state relative-caret-position="2907">
           <caret line="153" column="23" lean-forward="true" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="266">
           <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -809,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/designing-mode-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
