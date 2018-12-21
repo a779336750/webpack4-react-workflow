@@ -28,8 +28,6 @@ export function multiStep(steps, args, callback) {
     } else {
       callback();
     }
-
-
   }, 25);
 }
 
