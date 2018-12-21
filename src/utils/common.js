@@ -99,40 +99,6 @@ export function countDown(deadLine) {
 //
 
 /**
- * 装饰者模式 (应用于事件处理)
- * @param dom：注册事件的dom元素
- * @param type：事件类型
- * @param fn：事件处理函数
- */
-export function decoration(dom, type, fn) {
-  let originalEvent = dom[type];
-  if (typeof dom[type] === 'function') {
-    dom[type] = function() {
-      originalEvent();
-      fn();
-    };
-  } else {
-    dom[type] = fn;
-  }
-}
-
-/**
- * 简单模板模式
- * 定义：通过格式化字符串拼凑出视图避免创建视图时大量节点操作
- * 参数：
- * str:模板字符串:如<span>{#span#}</span>
- * data:添加到模板字符串的数据，如{span:'this is the data for label "span" '}
- * @param str
- * @param data
- * @returns {string | * | void}
- */
-export function formateStrin(str, data) {
-  return str.replace(/\{#(\w+)#\}/g, function(match, key) {
-    return typeof data[key] === 'undefined' ? '' : data[key];
-  });
-}
-
-/**
  * 创建元素
  * @param tag:元素标签名
  * @param attrs:创建的元素的属性
@@ -148,39 +114,6 @@ export function create(tag, attrs) {
     throw new Error('type of attr must be "object"');
   }
   return ele;
-}
-
-/**
- * 使用缓存，把以产生的计算结果缓存下来，方便下次使用。避免在多次调用函数时，重复计算。
- * @param fn:原函数的函数名
- * @param cache:可预先设定的缓存
- * @returns {function(*=): *}
- */
-export function menoize(fn, cache) {
-  let menonize_cache = cache || {};
-  return function(arr) {
-    if (!menonize_cache[arr]) {
-      menonize_cache[arr] = fn(arr);
-    }
-    return menonize_cache[arr];
-  };
-}
-
-export function multiStep(steps, args, callback) {
-  // 使用定时器处理任务，避免长时间运行脚本导致浏览器假死
-  // steps:任务的函数名的数组
-  // args：处理函数的参数
-  // callback：执行完的回调
-  let tasks = steps.concat();
-  setTimeout(function() {
-    let task = tasks.shift();
-    task.apply(null, args);
-    if (tasks.length > 0) {
-      setTimeout(arguments.callee, 25);
-    } else {
-      callback();
-    }
-  }, 25);
 }
 
 /**
