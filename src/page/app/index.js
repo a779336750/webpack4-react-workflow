@@ -7,6 +7,7 @@ import { setTitle } from '../../utils/wechat-utils';
 import * as deviceUtils from '../../utils/device-utils';
 import { horizontalTips, verticalTips } from '../../utils/flip-tips';
 import { throttle } from '../../utils/designing-mode-utils';
+import _ from '../../utils/lodash-utils';
 
 class App extends React.Component {
   constructor() {
@@ -16,9 +17,7 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
-    window.onscroll = () => {
-      throttle(this.scroll);
-    };
+    console.log(_.concat([1], 2, 3, [4, 5]));
   }
   scroll() {
     console.log(1);

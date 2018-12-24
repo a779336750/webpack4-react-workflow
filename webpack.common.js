@@ -101,9 +101,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src/index.template.html'),
+      template: path.resolve(__dirname, 'public/index.template.html'),
       favicon: path.resolve(__dirname, 'public/favicon-114x114.png'),
-      inject: true
+      inject: true,
+      hash: true
     }),
     new webpack.DefinePlugin({
       '@src': path.resolve(__dirname, 'src')
