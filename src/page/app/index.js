@@ -18,9 +18,11 @@ class App extends React.Component {
   }
   componentDidMount() {
     console.log(_.concat([1], 2, 3, [4, 5]));
+    console.log(_.concat([1], 2, 3, [4, 5]));
   }
   scroll() {
     console.log(1);
+    console.log(2);
   }
   throttle() {
     var isClear = arguments[0],
