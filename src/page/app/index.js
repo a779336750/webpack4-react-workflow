@@ -1,13 +1,13 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
-import { Base64 } from 'js-base64';
-import { isDev } from '../../utils/env.utils';
-import invariant from '../../utils/error-utils';
-import { setTitle } from '../../utils/wechat-utils';
-import * as deviceUtils from '../../utils/device-utils';
-import { horizontalTips, verticalTips } from '../../utils/flip-tips';
-import { throttle } from '../../utils/designing-mode-utils';
-import _ from '../../utils/lodash-utils';
+import { Route, Router, Switch, HashRouter } from 'react-router-dom';
+import Modal from '../modal';
+import Main from '../main';
+import { withRouter } from 'react-router';
+const ROUTE_NAME = {
+  MODAL: '/modal',
+  MAIN: '/'
+};
 
 class App extends React.Component {
   constructor() {
@@ -17,118 +17,19 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
-    console.log(_.concat([1], 2, 3, [4, 5]));
-    console.log(_.concat([1], 2, 3, [4, 5]));
-  }
-  scroll() {
-    console.log(1);
-    console.log(2);
-  }
-  throttle() {
-    var isClear = arguments[0],
-      fn;
-    if (typeof isClear === 'boolean') {
-      fn = arguments[1];
-      var clear = fn.throttleId && clearTimeout(fn.throttleId);
-    } else {
-      fn = isClear;
-      var param = arguments[1];
-      var p = {
-        ...{
-          context: null,
-          args: [],
-          time: 300
-        },
-        ...param
-      };
-      this.throttle(true, fn);
-      fn.throttleId = setTimeout(function() {
-        fn.call(p.context, p.args);
-      }, p.time);
-    }
-  }
-  onClick() {
-    this.setState({
-      pop: this.state.pop + 1
-    });
+    console.log(this.props);
   }
   render() {
     return (
       <div>
-        <button onClick={this.onClick.bind(this)}>change</button>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <button>saca</button>
+        <HashRouter>
+          <Route exact path={ROUTE_NAME.MAIN} component={Main} />
+        </HashRouter>
+        <HashRouter>
+          <Route exact path={ROUTE_NAME.MODAL} component={Modal} />
+        </HashRouter>
       </div>
     );
   }
 }
-export default hot(module)(App);
+export default withRouter(hot(module)(App));
