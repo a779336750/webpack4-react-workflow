@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mocker/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/designing-mode-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/designing-mode-utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -66,17 +63,17 @@
       <file leaf-file-name="webpack.dev.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="133">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mocker/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -93,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="designing-mode-utils.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="designing-mode-utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils/designing-mode-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="399">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -176,14 +173,14 @@
         <option value="$PROJECT_DIR$/src/utils/copy-utils.js" />
         <option value="$PROJECT_DIR$/src/utils/cookie.js" />
         <option value="$PROJECT_DIR$/src/utils/common.js" />
-        <option value="$PROJECT_DIR$/src/utils/designing-mode-utils.js" />
         <option value="$PROJECT_DIR$/src/utils/loadash-utils.js" />
         <option value="$PROJECT_DIR$/src/index.template.html" />
         <option value="$PROJECT_DIR$/src/page/app/index.js" />
         <option value="$PROJECT_DIR$/webpack.common.js" />
         <option value="$PROJECT_DIR$/src/mocker/index.js" />
-        <option value="$PROJECT_DIR$/webpack.dev.js" />
         <option value="$PROJECT_DIR$/mocker/index.js" />
+        <option value="$PROJECT_DIR$/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/src/utils/designing-mode-utils.js" />
       </list>
     </option>
   </component>
@@ -239,6 +236,18 @@
               <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,7 +350,7 @@
       <workItem from="1545634595132" duration="5146000" />
       <workItem from="1545643832637" duration="1050000" />
       <workItem from="1545821755234" duration="756000" />
-      <workItem from="1546825497727" duration="273000" />
+      <workItem from="1546825497727" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -476,11 +485,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545636480334</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="dev-server新增mock数据选项&#10;新增mock/index.js，用于配置mock数据">
+      <created>1546825996367</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546825996367</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77701000" />
+    <option name="totallyTimeSpent" value="78890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
@@ -527,7 +543,8 @@
     <MESSAGE value="工具类库：&#10;1.data-utils.js新增htmlToArray方法，用于html集合转数组&#10;2.新增copy-utils.js，用于拷贝相关类库（深拷贝）" />
     <MESSAGE value="工具类库：&#10;新增设计模式工具类库designing-mode-utils" />
     <MESSAGE value="htmlWebpackPlugin插件新增hash配置，动态添加每次compile后的hash，防止引用缓存的外部文件问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="htmlWebpackPlugin插件新增hash配置，动态添加每次compile后的hash，防止引用缓存的外部文件问题" />
+    <MESSAGE value="dev-server新增mock数据选项&#10;新增mock/index.js，用于配置mock数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev-server新增mock数据选项&#10;新增mock/index.js，用于配置mock数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/designing-mode-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/lodash-utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -824,17 +834,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
+    <entry file="file://$PROJECT_DIR$/mocker/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="304">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mocker/index.js">
+    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/designing-mode-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>

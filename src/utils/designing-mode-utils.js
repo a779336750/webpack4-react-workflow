@@ -24,7 +24,7 @@ export function multiStep(steps, args, callback) {
     let task = tasks.shift();
     task.apply(null, args);
     if (tasks.length > 0) {
-      setTimeout(arguments.callee, 25);
+      setTimeout(multiStep, 25);
     } else {
       callback();
     }

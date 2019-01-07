@@ -10,8 +10,11 @@ module.exports = merge(common, {
   devServer: {
     contentBase: './dev',
     hot: false,
-    host: '10.11.135.29',
     port: 8081,
+    /**
+     * before在服务内部的所有其他中间件之前， 提供执行自定义中间件的功能。 这可以用来配置自定义处理程序
+     * @param app
+     */
     before(app) {
       apiMocker(app, path.resolve('./mocker/index.js'), {
         proxy: {
