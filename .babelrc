@@ -11,7 +11,9 @@
       {
         "legacy": true
       }
-    ]
+    ],
+    "@babel/plugin-syntax-class-properties",
+    "transform-class-properties"
   ],
   "presets": [
     "@babel/preset-react"

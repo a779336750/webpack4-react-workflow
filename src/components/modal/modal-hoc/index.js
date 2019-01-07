@@ -1,6 +1,5 @@
 import React from 'react';
-import Modal from '@src/components/modal';
-
+import Modal from '../../modal';
 const ModalHOC = (extraProps = {}) => Component =>
   class extends React.PureComponent {
     componentDidMount() {

@@ -1,0 +1,108 @@
+@confirmColor: #d85236;
+@cancelColor: #b0a9a7;
+
+.button-text {
+  font-size: 30px;
+  color: #fff9eb;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.modal-normal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  :global {
+    .modal-normal-root {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+      margin: auto;
+      width: 689px;
+      height: 531px;
+      color: #d85236;
+    }
+    .modal-normal-root .modal-normal-layer-1 {
+      position: absolute;
+      width: 824px;
+      height: 668px;
+      top: -59px;
+      left: -79px;
+      background-image: url(../images/modal-normal-layer-1.png);
+      background-size: cover;
+    }
+    .modal-normal-root .modal-normal-layer-2 {
+      position: absolute;
+      width: 39px;
+      height: 38px;
+      top: 0;
+      left: 650px;
+      background-image: url(../images/modal-normal-layer-2.png);
+      background-size: cover;
+    }
+    // 主体
+    .modal-normal-root .modal-normal-group-1 {
+      position: absolute;
+      top: 100px;
+      width: 100%;
+    }
+    .modal-normal-root .modal-normal-group-2 {
+    }
+    // title
+    .modal-normal-root .modal-normal-layer-3 {
+      text-align: center;
+      font-size: 36px;
+    }
+    .modal-normal-root .modal-normal-layer-4 {
+      width: 500px;
+      margin: 40px auto;
+      text-align: left;
+    }
+    .modal-normal-root .modal-normal-layer-5 {
+      text-align: left;
+      width: 560px;
+      margin: 0 auto;
+      text-indent: -18px;
+      line-height: 1.5;
+      p {
+        margin-top: 10px;
+      }
+    }
+    .modal-normal-root .modal-normal-group-4 {
+      position: absolute;
+      width: 470px;
+      height: 80px;
+      top: 353px;
+      left: 104px;
+    }
+    .modal-normal-root .modal-normal-layer-6 {
+      position: absolute;
+      width: 290px;
+      height: 80px;
+      top: 0;
+      left: 84px;
+      background: @confirmColor;
+      border-radius: 40px;
+    }
+    .modal-normal-root .modal-normal-layer-7 {
+      position: absolute;
+      width: 210px;
+      height: 80px;
+      top: 0;
+      left: 0;
+      border-radius: 40px;
+      background-color: @confirmColor;
+    }
+    .modal-normal-root .modal-normal-layer-8 {
+      position: absolute;
+      width: 210px;
+      height: 80px;
+      top: 0;
+      left: 260px;
+      border-radius: 40px;
+      background-color: @cancelColor;
+    }
+  }
+}

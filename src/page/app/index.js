@@ -1,7 +1,7 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
 import { Route, Router, Switch, HashRouter } from 'react-router-dom';
-import Modal from '../modal';
+import ModalTest from '../modal-test';
 import Main from '../main';
 import { withRouter } from 'react-router';
 const ROUTE_NAME = {
@@ -26,7 +26,7 @@ class App extends React.Component {
           <Route exact path={ROUTE_NAME.MAIN} component={Main} />
         </HashRouter>
         <HashRouter>
-          <Route exact path={ROUTE_NAME.MODAL} component={Modal} />
+          <Route exact path={ROUTE_NAME.MODAL} component={ModalTest} />
         </HashRouter>
       </div>
     );
