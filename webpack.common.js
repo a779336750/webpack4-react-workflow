@@ -109,5 +109,10 @@ module.exports = {
     new webpack.DefinePlugin({
       '@src': path.resolve(__dirname, 'src')
     })
-  ]
+  ],
+  resolve: {
+    alias: {
+      '@src': path.resolve(__dirname, 'src')
+    }
+  }
 };
