@@ -4,6 +4,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   module: {
     // parser: 'sugarss',
+    /**
+     * noParse性能优化
+     * 告诉webpack哪些文件不必解释，因为某些库文件，如jquery，lodash等直接可用，无需解析就可使用。
+     */
+    noParse: [/jquery|lodash/, /react\.min\.js$/],
     rules: [
       {
         enforce: 'pre',
