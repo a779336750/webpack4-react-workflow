@@ -105,9 +105,6 @@ module.exports = {
       favicon: path.resolve(__dirname, 'public/favicon-114x114.png'),
       inject: true,
       hash: true
-    }),
-    new webpack.DefinePlugin({
-      '@src': path.resolve(__dirname, 'src')
     })
   ],
   resolve: {
