@@ -100,6 +100,9 @@ module.exports = {
     ]
   },
   plugins: [
+    /**
+     * 设置html模板，配置生成的html文件的模板
+     */
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public/index.template.html'),
       favicon: path.resolve(__dirname, 'public/favicon-114x114.png'),
@@ -108,8 +111,16 @@ module.exports = {
     })
   ],
   resolve: {
+    /**
+     * 设置别名
+     */
     alias: {
       '@src': path.resolve(__dirname, 'src')
-    }
+    },
+    /**
+     * 性能优化，指定第三方modules搜索的目录,避免层层查找
+     * 默认值为['node_modules']，会依次查找./node_modules、../node_modules、../../node_modules。
+     */
+    modules: [path.resolve(__dirname, 'node_modules')]
   }
 };
