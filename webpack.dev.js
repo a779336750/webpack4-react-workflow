@@ -4,12 +4,14 @@ const common = require('./webpack.common');
 const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const apiMocker = require('webpack-api-mocker');
+const DllPlugin = require('webpack/lib/DllPlugin');
 module.exports = merge(common, {
   mode: 'development',
   devtool: 'cheap-module-eval-source-map',
   devServer: {
     contentBase: './dev',
     hot: false,
+    inline: false,
     port: 8082,
     /**
      * before在服务内部的所有其他中间件之前， 提供执行自定义中间件的功能。 这可以用来配置自定义处理程序

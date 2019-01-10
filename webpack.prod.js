@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const common = require('./webpack.common');
 const merge = require('webpack-merge');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin');
 module.exports = merge(common, {
   mode: 'production',
   entry: {
@@ -27,9 +27,6 @@ module.exports = merge(common, {
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
-    new UglifyJSPlugin({
-      sourceMap: true
-    }),
     new webpack.HashedModuleIdsPlugin(),
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"production"' }

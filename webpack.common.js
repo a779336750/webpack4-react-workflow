@@ -1,6 +1,6 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
   module: {
     // parser: 'sugarss',
@@ -113,6 +113,11 @@ module.exports = {
       favicon: path.resolve(__dirname, 'public/favicon-114x114.png'),
       inject: true,
       hash: true
+    }),
+    new UglifyJSPlugin({
+      sourceMap: true,
+      cache: true,
+      parallel: true
     })
   ],
   resolve: {
