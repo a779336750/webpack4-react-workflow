@@ -4,6 +4,6 @@ export default class App extends React.Component {
     console.log('ascascasa');
   }
   render() {
-    return <div>modals</div>;
+    return <div className={'hahahahaha'}>modals</div>;
   }
 }

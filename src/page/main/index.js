@@ -5,7 +5,7 @@ export default class App extends React.Component {
   componentDidMount() {}
   render() {
     return (
-      <div className={styles.main}>
+      <div className={'main'}>
         <Modal />
       </div>
     );

@@ -10,7 +10,7 @@ module.exports = merge(common, {
   devtool: 'cheap-module-eval-source-map',
   devServer: {
     contentBase: './dev',
-    hot: true,
+    hot: false,
     inline: true,
     port: 8082,
     /**
