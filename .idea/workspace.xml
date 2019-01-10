@@ -3,55 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-list/test/images/blessing.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-list/test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-list/test/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/alert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/blessing-action/images/blessing.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/blessing-action/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/blessing-action/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/exchange/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/exchange/images/submit-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/exchange/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/exchange/style/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/css/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/images/modal-normal-layer-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/normal/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/css/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/images/xfe-rules-layer-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/rules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/share-tip/images/share-tip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/share-tip/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/share-tip/style/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/test/images/blessing.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/test/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal-test/modal/wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/main/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/main/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/modal/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -69,8 +26,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/app/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="258">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#179#206#0" expanded="true" />
@@ -82,8 +39,17 @@
       <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+            <state relative-caret-position="342">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page/main/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,8 +69,8 @@
       <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="420">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -112,8 +78,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="171">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -121,8 +87,8 @@
       <file leaf-file-name="webpack.dev.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="589">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -136,23 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97622">
-              <caret line="5138" column="28" selection-start-line="5138" selection-start-column="28" selection-end-line="5138" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -160,8 +114,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/modal/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="76">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -193,6 +147,7 @@
       <find>node: {</find>
       <find>node</find>
       <find>class App</find>
+      <find>ExtractTextPlugin</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -237,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/page/modal-test/index.js" />
         <option value="$PROJECT_DIR$/src/page/modal-test/modal/index.js" />
         <option value="$PROJECT_DIR$/src/page/modal-list/test/index.js" />
-        <option value="$PROJECT_DIR$/src/page/main/index.less" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" />
         <option value="$PROJECT_DIR$/src/page/main/index.js" />
@@ -245,10 +199,11 @@
         <option value="$PROJECT_DIR$/webpack.dll.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/page/modal/index.js" />
         <option value="$PROJECT_DIR$/src/page/app/index.js" />
-        <option value="$PROJECT_DIR$/webpack.dev.js" />
         <option value="$PROJECT_DIR$/webpack.prod.js" />
+        <option value="$PROJECT_DIR$/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/src/page/modal/index.js" />
+        <option value="$PROJECT_DIR$/src/page/main/index.less" />
         <option value="$PROJECT_DIR$/webpack.common.js" />
       </list>
     </option>
@@ -295,6 +250,48 @@
             <path>
               <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,7 +447,7 @@
       <workItem from="1546850460893" duration="2685000" />
       <workItem from="1546919136214" duration="2556000" />
       <workItem from="1547020294819" duration="11834000" />
-      <workItem from="1547084533432" duration="1070000" />
+      <workItem from="1547084533432" duration="5825000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -641,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547024516073</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="UglifyJsPlugin性能优化&#10; 1.开启多进程压缩JS文件&#10;new UglifyJsPlugin({&#10;    parallel: true&#10;  })&#10; 2.启用文件缓存&#10;  new UglifyJsPlugin({&#10;     cache: true&#10;   })">
+      <created>1547085783463</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1547085783463</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105864000" />
+    <option name="totallyTimeSpent" value="110619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
@@ -705,7 +709,8 @@
     <MESSAGE value="webpack.common.js新增resolve配置项&#10;新增alias配置项，用于配置一些别名，如：&#10;@src 等于项目下的src目录" />
     <MESSAGE value="webpack.common.js新增resolve配置项&#10;新增modules配置项，指定第三方modules的搜索目录，避免层层查找" />
     <MESSAGE value="module.noParse性能优化&#10;告诉webpack哪些文件不必解释，因为某些库文件，如jquery，lodash等直接可用，无需解析就可使用。" />
-    <option name="LAST_COMMIT_MESSAGE" value="module.noParse性能优化&#10;告诉webpack哪些文件不必解释，因为某些库文件，如jquery，lodash等直接可用，无需解析就可使用。" />
+    <MESSAGE value="UglifyJsPlugin性能优化&#10; 1.开启多进程压缩JS文件&#10;new UglifyJsPlugin({&#10;    parallel: true&#10;  })&#10; 2.启用文件缓存&#10;  new UglifyJsPlugin({&#10;     cache: true&#10;   })" />
+    <option name="LAST_COMMIT_MESSAGE" value="UglifyJsPlugin性能优化&#10; 1.开启多进程压缩JS文件&#10;new UglifyJsPlugin({&#10;    parallel: true&#10;  })&#10; 2.启用文件缓存&#10;  new UglifyJsPlugin({&#10;     cache: true&#10;   })" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,19 +873,15 @@
     <entry file="file://$PROJECT_DIR$/src/components/modal/style/index.m.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/main/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal/modal-hoc/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -958,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/modal/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -972,21 +966,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/modal-list/test/index.js" />
     <entry file="file://$PROJECT_DIR$/src/page/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="258">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#179#206#0" expanded="true" />
@@ -994,31 +978,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="38">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.prod.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/modal/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/main/index.less">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+        <state relative-caret-position="342">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
         </state>
       </provider>
     </entry>

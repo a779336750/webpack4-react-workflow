@@ -10,8 +10,8 @@ module.exports = merge(common, {
   devtool: 'cheap-module-eval-source-map',
   devServer: {
     contentBase: './dev',
-    hot: false,
-    inline: false,
+    hot: true,
+    inline: true,
     port: 8082,
     /**
      * before在服务内部的所有其他中间件之前， 提供执行自定义中间件的功能。 这可以用来配置自定义处理程序

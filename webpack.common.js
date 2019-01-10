@@ -1,6 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+// const glob = require('glob');
+// const ExtractTextPlugin = require('extract-text-webpack-plugin');
+// const PurifyCSSPlugin = require('purifycss-webpack');
 module.exports = {
   module: {
     // parser: 'sugarss',
@@ -27,11 +30,27 @@ module.exports = {
         ]
       },
       {
+        // test: /\.css$/,
+        // loader: ExtractTextPlugin.extract({
+        //   fallback: 'style-loader',
+        //   use: [
+        //     {
+        //       loader: 'css-loader',
+        //       options: {
+        //         // localIdentName: 'purify_[hash:base64:5]',
+        //         modules: true
+        //       }
+        //     },
+        //     {
+        //       loader: 'less-loader' // compiles Less to CSS
+        //     }
+        //   ]
+        // })
         test: /\.css$/,
         use: [
           'style-loader',
           {
-            loader: 'css-loader',
+            loader: 'css-loader?minimize',
             options: {
               modules: true,
               localIdentName: '[path][name]__[local]--[hash:base64:5]',
@@ -48,7 +67,11 @@ module.exports = {
           },
           {
             loader: 'css-loader',
-            options: { modules: true, importLoaders: 1 }
+            options: {
+              modules: true,
+              localIdentName: '[path][name]__[local]--[hash:base64:5]',
+              importLoaders: 1
+            }
           },
           {
             loader: 'less-loader' // compiles Less to CSS
@@ -119,6 +142,12 @@ module.exports = {
       cache: true,
       parallel: true
     })
+    // new ExtractTextPlugin('[name].[contenthash].css'),
+    // // Make sure this is after ExtractTextPlugin!
+    // new PurifyCSSPlugin({
+    //   // Give paths to parse for rules. These should be absolute!
+    //   paths: glob.sync(path.join(__dirname, 'app/*.html'))
+    // })
   ],
   resolve: {
     /**
