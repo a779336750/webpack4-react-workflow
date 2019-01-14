@@ -1,10 +1,10 @@
 import * as React from 'react';
 import style from './index.less';
 import { createForm } from 'rc-form';
-import Input from '@src/components/input';
+import Input from '@src/components/input-antd';
 import Button from '@src/components/button';
 import Link from '@src/components/link';
-import SmsCodeInput from '@src/components/sms-code-input';
+import SmsCodeInput from '@src/components/sms-code-input-antd';
 import Services from '@src/services';
 import { removeSpaces } from '@src/utils/common-util';
 import Toast from '@src/components/toast';

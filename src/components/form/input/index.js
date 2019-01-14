@@ -1,27 +1,23 @@
 import * as React from 'react';
-import { InputItem } from 'antd-mobile';
-import Toast from '@src/components/toast';
-
-export default class Input extends React.PureComponent {
-  constructor(props) {
-    super(props);
-    this.onErrorClick = this.onErrorClick.bind(this);
-  }
-
-  onErrorClick() {
-    const { errorMessage } = this.props;
-    errorMessage && Toast.info(errorMessage);
-  }
-
+export default class Input extends React.Component {
   render() {
-    const { errorMessage, className, ...restProps } = this.props;
+    const { callback } = this.props;
     return (
-      <InputItem
-        {...restProps}
-        className={className}
-        error={errorMessage}
-        onErrorClick={this.onErrorClick}
+      <input
+        type="text"
+        onChange={e => {
+          callback(e.target.value);
+        }}
       />
     );
   }
 }
+Input.defaultProps = {
+  /**
+   * callback函数用于获取input的值，每次输入都会执行callback以获取value值
+   * @param v
+   */
+  callback: v => {
+    console.log(v);
+  }
+};

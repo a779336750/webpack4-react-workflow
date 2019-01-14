@@ -1,7 +1,7 @@
 import * as React from 'react';
 import style from './index.less';
 import { createForm } from 'rc-form';
-import Input from '@src/components/input';
+import Input from '@src/components/input-antd';
 import Button from '@src/components/button';
 import captchaHandlerDecorate from '@src/utils/captcha-deco-util';
 import Toast from '@src/components/toast';

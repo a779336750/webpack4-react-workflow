@@ -10,7 +10,7 @@ export function objectToJson(input) {
   if (type.isObject(input)) {
     return JSON.stringify(input);
   } else {
-    throw Error('type of input must be a object');
+    throw Error('type of input-antd must be a object');
   }
 }
 
@@ -34,7 +34,7 @@ export function base64UrlDecode(input) {
 
 /**
  * 获取页面url查询字符串
- * input 页面url（location.href）
+ * input-antd 页面url（location.href）
  * @param input
  */
 export function getUrlParams(input) {
