@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/modal-dialog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modal-dialog/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toggle/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toggle/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/modal/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/modal/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -120,8 +109,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <first_editor relative-caret-position="144">
+                <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -191,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/src/models/test.js" />
         <option value="$PROJECT_DIR$/src/page/index/index.js" />
         <option value="$PROJECT_DIR$/src/models/index.js" />
@@ -242,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/components/toggle/index.js" />
         <option value="$PROJECT_DIR$/webpack.common.js" />
         <option value="$PROJECT_DIR$/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -444,7 +433,7 @@
       <workItem from="1546919136214" duration="2556000" />
       <workItem from="1547020294819" duration="11834000" />
       <workItem from="1547084533432" duration="21956000" />
-      <workItem from="1547447644502" duration="2337000" />
+      <workItem from="1547447644502" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -663,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547106629821</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="新增README.md文件，详细介绍所做的webpack性能优化">
+      <created>1547450026415</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1547450026415</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129087000" />
+    <option name="totallyTimeSpent" value="129183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
@@ -730,7 +726,8 @@
     <MESSAGE value="UglifyJsPlugin性能优化&#10; 1.开启多进程压缩JS文件&#10;new UglifyJsPlugin({&#10;    parallel: true&#10;  })&#10; 2.启用文件缓存&#10;  new UglifyJsPlugin({&#10;     cache: true&#10;   })" />
     <MESSAGE value="更改css-loader的module配置，更改生成css 的hash类名规则" />
     <MESSAGE value="使用ExtractTextPlugin插件抽离项目less文件，打包成单独的style.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用ExtractTextPlugin插件抽离项目less文件，打包成单独的style.css" />
+    <MESSAGE value="新增README.md文件，详细介绍所做的webpack性能优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增README.md文件，详细介绍所做的webpack性能优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,6 +779,9 @@
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,8 +1027,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <first_editor relative-caret-position="144">
+            <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
