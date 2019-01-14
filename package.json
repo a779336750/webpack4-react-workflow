@@ -2,6 +2,7 @@
   "name": "webpack-demo2",
   "version": "1.0.0",
   "description": "",
+  "sideEffects": false,
   "main": "index.js",
   "private": true,
   "scripts": {
