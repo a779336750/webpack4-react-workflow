@@ -67,8 +67,7 @@ devServer: {
 	   cssnano基于PostCSS，不仅是删掉空格，还能理解代码含义，例如把color:#ff0000 转换成 color:red，css-loader内置了cssnano，只需要使用 css-loader?minimize 就可以开启cssnano压缩。
 
 - 使用ExtractTextPlugin插件抽离css文件 
-<code>
-
+`
 {
   test: /\.less$/,
   use: ExtractTextPlugin.extract({
@@ -91,5 +90,4 @@ devServer: {
 plugins: [
   new ExtractTextPlugin('style.css')
 ]
-
-</code>
+`
