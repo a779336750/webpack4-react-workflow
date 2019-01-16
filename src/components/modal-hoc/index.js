@@ -1,9 +1,6 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './index.less';
-import { Modal } from 'antd-mobile';
-import ModalDialogHoc from '../modal-dialog-hoc';
-
 const withDialog = WrappedComponent => {
   class EnhancedComponent extends React.Component {
     render() {
