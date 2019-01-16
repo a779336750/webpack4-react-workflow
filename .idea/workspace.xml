@@ -22,8 +22,9 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="133">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,11 +68,20 @@
       <file leaf-file-name="data-utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+            <state relative-caret-position="293">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rem-utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/rem-utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -526,7 +536,7 @@
       <workItem from="1547084533432" duration="21956000" />
       <workItem from="1547447644502" duration="3559000" />
       <workItem from="1547456204645" duration="6148000" />
-      <workItem from="1547515943633" duration="12571000" />
+      <workItem from="1547515943633" duration="15001000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -815,11 +825,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547635159218</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="data-utils新增api&#10;flattenArray&#10;将数组项为数组的数组转成一个数组">
+      <created>1547636183247</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1547636183247</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149028000" />
+    <option name="totallyTimeSpent" value="151458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -858,7 +875,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增device-utils工具类库，用于判断当前设备类型" />
     <MESSAGE value="新增env-utils工具类库，用于判断当前环境是否开发环境" />
     <MESSAGE value="新增err-utils工具类库，用于抛出错误" />
     <MESSAGE value="新增页面favicon小图标&#10;新增webchat-utils工具，动态设置微信分享标题和图片" />
@@ -883,7 +899,8 @@
     <MESSAGE value="新增设计模式工具:闭包实现节流模式&#10;utils/designing-mode-utils.js下&#10;debounce方法" />
     <MESSAGE value="新增modal-dialog-hoc组件&#10;使用高阶组件实现对业务组件进行封装，实现弹窗" />
     <MESSAGE value="新增modal-hoc组件&#10;使用高阶组件实现对业务组件进行封装，实现弹窗" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增modal-hoc组件&#10;使用高阶组件实现对业务组件进行封装，实现弹窗" />
+    <MESSAGE value="data-utils新增api&#10;flattenArray&#10;将数组项为数组的数组转成一个数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="data-utils新增api&#10;flattenArray&#10;将数组项为数组的数组转成一个数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,7 +919,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/page/main/index.css" />
     <entry file="file://$PROJECT_DIR$/src/page/modal/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1251,10 +1267,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/rem-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="133">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1263,8 +1287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        <state relative-caret-position="293">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

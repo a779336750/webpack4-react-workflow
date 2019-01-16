@@ -92,3 +92,20 @@ export function flattenArray(arr) {
     return accumulator.concat(currentValue);
   }, []);
 }
+
+/**
+ * 计算数组的每个项的个数
+ * @param arr
+ * @return {*}
+ * @constructor
+ */
+export function countingInstancesOfObject(arr) {
+  return arr.reduce((accumulator, currentValue) => {
+    if (accumulator[currentValue]) {
+      accumulator[currentValue]++;
+    } else {
+      accumulator[currentValue] = 1;
+    }
+    return accumulator;
+  }, {});
+}

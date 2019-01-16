@@ -3,7 +3,7 @@ import styles from './index.less';
 import ModalDialogHoc from '@src/components/modal-dialog-hoc';
 import modalHoc from '@src/components/modal-hoc';
 import { debounce } from '@src/utils/designing-mode-utils';
-import { FlattenArray } from '@src/utils/data-utils';
+import { countingInstancesOfObject } from '@src/utils/data-utils';
 @modalHoc
 class HelloWorld1 extends React.Component {
   render() {
@@ -19,7 +19,9 @@ class HelloWorld2 extends React.Component {
 }
 export default class App extends React.Component {
   componentDidMount() {
-    console.log(FlattenArray([[1, 2, 3, 4], [2, 21, 3, 3]]));
+    console.log(
+      countingInstancesOfObject([1, 2, 3, 4, 3, 2, 1, 1, 3, 34, 4, 3, 2, 2, 2])
+    );
   }
   showModal1 = () => {
     HelloWorld1.show();
