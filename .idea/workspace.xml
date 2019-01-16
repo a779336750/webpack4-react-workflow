@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/modal-dialog-hoc/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modal-dialog-hoc/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal-hoc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal-hoc/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/data-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data-utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="304">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -54,21 +53,24 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/modal-dialog-hoc/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/modal-hoc/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="62" selection-start-line="62" selection-end-line="77" />
+            <state relative-caret-position="589">
+              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/modal-hoc/index.js">
+      <file leaf-file-name="data-utils.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+            <state relative-caret-position="350">
+              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/utils/device-tips.js" />
         <option value="$PROJECT_DIR$/src/utils/flip-tips.js" />
         <option value="$PROJECT_DIR$/src/utils/rem.js" />
-        <option value="$PROJECT_DIR$/src/utils/data-utils.js" />
         <option value="$PROJECT_DIR$/src/utils/copy-utils.js" />
         <option value="$PROJECT_DIR$/src/utils/cookie.js" />
         <option value="$PROJECT_DIR$/src/utils/common.js" />
@@ -216,9 +217,10 @@
         <option value="$PROJECT_DIR$/src/components/modal-dialog/index.js" />
         <option value="$PROJECT_DIR$/src/components/modal-dialog-hoc/index.js" />
         <option value="$PROJECT_DIR$/src/components/with-dialog/index.js" />
-        <option value="$PROJECT_DIR$/src/page/main/index.js" />
         <option value="$PROJECT_DIR$/src/components/modal-hoc/index.less" />
         <option value="$PROJECT_DIR$/src/components/modal-hoc/index.js" />
+        <option value="$PROJECT_DIR$/src/page/main/index.js" />
+        <option value="$PROJECT_DIR$/src/utils/data-utils.js" />
       </list>
     </option>
   </component>
@@ -318,20 +320,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="modal-dialog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="modal-dialog-hoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="modal-hoc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
@@ -538,7 +526,7 @@
       <workItem from="1547084533432" duration="21956000" />
       <workItem from="1547447644502" duration="3559000" />
       <workItem from="1547456204645" duration="6148000" />
-      <workItem from="1547515943633" duration="10376000" />
+      <workItem from="1547515943633" duration="12571000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -813,11 +801,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547632589967</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="新增modal-hoc组件&#10;使用高阶组件实现对业务组件进行封装，实现弹窗">
+      <created>1547632658460</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1547632658460</updated>
+    </task>
+    <task id="LOCAL-00041" summary="新增modal-hoc组件&#10;使用高阶组件实现对业务组件进行封装，实现弹窗">
+      <created>1547635159218</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1547635159218</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146833000" />
+    <option name="totallyTimeSpent" value="149028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -900,7 +902,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/style.css" />
     <entry file="file://$PROJECT_DIR$/src/page/main/index.css" />
     <entry file="file://$PROJECT_DIR$/src/page/modal/index.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1209,16 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal-dialog-hoc/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1252,10 +1243,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal-hoc/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        <state relative-caret-position="589">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

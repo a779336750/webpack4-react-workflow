@@ -79,3 +79,16 @@ export function htmlToArray(html_collection) {
   }
   return arr;
 }
+
+/**
+ * 数组扁平化，将数组项为数组的数组转成一个数组，如：
+ * [[1,2,3,4],[5,6]] 转为[1,2,3,4,5,6]
+ * @param arr
+ * @return {*}
+ * @constructor
+ */
+export function flattenArray(arr) {
+  return arr.reduce((accumulator, currentValue) => {
+    return accumulator.concat(currentValue);
+  }, []);
+}
