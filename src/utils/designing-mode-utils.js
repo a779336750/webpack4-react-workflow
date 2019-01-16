@@ -99,3 +99,24 @@ export function throttle() {
     }, p.time);
   }
 }
+
+/**
+ *闭包实现节流模式
+ *debounce
+ *第一个参数：要执行的函数
+ *第二个参数：节流时间间隔，
+ *{
+ *  context: null,//表示函数的作用域
+ *  args: [],//函数的参数
+ *  time:300//节流的时间间隔，即多个函数的触发时间间隔小于此时间，则只执行最后一个函数
+ *}
+ */
+export function debounce(fn, time, params) {
+  let timer = null;
+  return function() {
+    clearTimeout(timer);
+    timer = setTimeout(function() {
+      fn(params);
+    }, time);
+  };
+}
