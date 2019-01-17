@@ -109,3 +109,34 @@ export function countingInstancesOfObject(arr) {
     return accumulator;
   }, {});
 }
+/**
+ * 根据对象数组的某个对象值属性进行分组
+ * @param arr
+ * @return {*}
+ * @constructor
+ */
+export function GroupByProperty(arr, p) {
+  return arr.reduce((accumulator, currentValue) => {
+    let key = currentValue[p];
+    if (!accumulator[key]) {
+      accumulator[key] = [];
+    }
+    accumulator[key].push(currentValue);
+    return accumulator;
+  }, {});
+}
+
+/**
+ * 去重
+ * @param arr
+ * @return {*}
+ * @constructor
+ */
+export function removeDuplicate(arr) {
+  return arr.reduce((accumulator, currentValue) => {
+    if (!accumulator.includes(currentValue)) {
+      accumulator.push(currentValue);
+    }
+    return accumulator;
+  }, []);
+}

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './index.less';
-const withDialog = WrappedComponent => {
+const modalHoc = WrappedComponent => {
   class EnhancedComponent extends React.Component {
     render() {
       return (
@@ -41,7 +41,7 @@ const withDialog = WrappedComponent => {
 
   return EnhancedComponent;
 };
-export default withDialog;
+export default modalHoc;
 /**
  * 使用方法：
  * *

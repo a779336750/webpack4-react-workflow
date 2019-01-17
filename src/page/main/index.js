@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './index.less';
-import ModalDialogHoc from '@src/components/modal-dialog-hoc';
 import modalHoc from '@src/components/modal-hoc';
-import { debounce } from '@src/utils/designing-mode-utils';
-import { countingInstancesOfObject } from '@src/utils/data-utils';
+import { debounceDecorator } from '@src/utils/designing-mode-utils';
+import { removeDuplicate } from '@src/utils/data-utils';
+import { autobind } from 'core-decorators';
+
 @modalHoc
 class HelloWorld1 extends React.Component {
   render() {
@@ -19,21 +19,180 @@ class HelloWorld2 extends React.Component {
 }
 export default class App extends React.Component {
   componentDidMount() {
-    console.log(
-      countingInstancesOfObject([1, 2, 3, 4, 3, 2, 1, 1, 3, 34, 4, 3, 2, 2, 2])
-    );
+    console.log(removeDuplicate([1, 2, 3, 3, 2, 2, 2, 1, 1, 1, 1]));
+    console.log(this.showHi.bind(this, 'dick'));
+    window.onscroll = this.showHi.bind(this, 'dick');
   }
-  showModal1 = () => {
-    HelloWorld1.show();
-  };
-  showModal2 = () => {
-    HelloWorld2.show();
-  };
+
+  @debounceDecorator(300)
+  showHi(name) {
+    console.log('hahahahahahaha,' + name);
+  }
+
   render() {
     return (
       <div className={'main'}>
-        <button onClick={this.showModal1}>showModal1</button>
-        <button onClick={this.showModal2}>showModal2</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        sac
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
+        <br />
+        scass
+        <br />
       </div>
     );
   }

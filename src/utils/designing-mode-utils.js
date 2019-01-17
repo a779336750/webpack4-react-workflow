@@ -120,3 +120,31 @@ export function debounce(fn, time, params) {
     }, time);
   };
 }
+
+/**
+ *es7 decorator实现节流模式
+ *time：节流时间间隔
+ *使用方法：
+ *
+ *装饰：
+ *@debounceDecorator(300)
+ *showHi(name) {
+ *  console.log('hahahahahahaha,' + name);
+ *}
+ *调用：
+ *window.onscroll = this.showHi.bind(this, 'dick');
+ *
+ */
+export function debounceDecorator(time) {
+  return function(target, name, descriptor) {
+    let timer = null;
+    let originalFunc = descriptor.value;
+    descriptor.value = function(...rest) {
+      clearTimeout(timer);
+      timer = setTimeout(function() {
+        originalFunc(...rest);
+      }, time);
+    };
+    return descriptor;
+  };
+}
