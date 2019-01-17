@@ -2,9 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const common = require('./webpack.common');
 const merge = require('webpack-merge');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const apiMocker = require('webpack-api-mocker');
-const DllPlugin = require('webpack/lib/DllPlugin');
 module.exports = merge(common, {
   mode: 'development',
   devtool: 'cheap-module-eval-source-map',

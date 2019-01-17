@@ -33,7 +33,7 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: 'babel-loader',
+            loader: 'babel-loader'
           },
           {
             loader: 'eslint-loader'
@@ -43,12 +43,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          { loader: 'style-loader' },
           {
             loader: 'css-loader?minimize',
             options: {
-              modules: true,
-              localIdentName: '[path][name]__[local]--[hash:base64:5]',
               importLoaders: 1
             }
           }
@@ -56,6 +54,7 @@ module.exports = {
       },
       {
         test: /\.less$/,
+        include: /src/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [

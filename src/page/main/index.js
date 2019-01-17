@@ -18,182 +18,20 @@ class HelloWorld2 extends React.Component {
   }
 }
 export default class App extends React.Component {
-  componentDidMount() {
-    console.log(removeDuplicate([1, 2, 3, 3, 2, 2, 2, 1, 1, 1, 1]));
-    console.log(this.showHi.bind(this, 'dick'));
-    window.onscroll = this.showHi.bind(this, 'dick');
-  }
+  componentDidMount() {}
 
   @debounceDecorator(300)
   showHi(name) {
     console.log('hahahahahahaha,' + name);
   }
-
+  show1 = () => {
+    console.log('sacsaas');
+  };
+  @autobind
+  show2() {
+    console.log('sacsaas');
+  }
   render() {
-    return (
-      <div className={'main'}>
-        <br />
-        <br />
-        <br />
-        <br />
-        sac
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-        <br />
-        scass
-        <br />
-      </div>
-    );
+    return <div className={'main'}>jajajasacsacjs</div>;
   }
 }

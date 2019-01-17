@@ -7,12 +7,11 @@ const modalHoc = WrappedComponent => {
       return (
         <div className={styles.modal}>
           <div className={styles.mask} />
-
           <div className={styles.content}>
             <div
               className={styles.close}
               onClick={() => {
-                this.props.onClose();
+                this.props.closeHandle();
               }}
             >
               X
@@ -26,15 +25,13 @@ const modalHoc = WrappedComponent => {
   EnhancedComponent.show = params => {
     let container = document.createElement('div');
     document.body.appendChild(container);
-
     function closeHandle() {
       ReactDOM.unmountComponentAtNode(container);
       document.body.removeChild(container);
       container = null;
     }
-
     ReactDOM.render(
-      <EnhancedComponent {...params} onClose={closeHandle} />,
+      <EnhancedComponent {...params} closeHandle={closeHandle} />,
       container
     );
   };

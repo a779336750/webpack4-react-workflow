@@ -43,6 +43,7 @@ export function getUrlParams(input) {
   const paramsObj = {};
   paramsArr.map(item => {
     paramsObj[item.split('=')[0]] = item.split('=')[1];
+    return null;
   });
   return paramsObj;
 }
