@@ -3,32 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collapse/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/collapse/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collapse/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/collapse/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/scroll-to-top-on-mount/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scroll-to-top-on-mount/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/scroll-to-top/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scroll-to-top/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/flower-spinner/images/flower-spinner-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/flower-spinner/images/flower-spinner-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/flower-spinner/images/flower-spinner-text.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/flower-spinner/images/flower-spinner-text.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/flower-spinner/images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/flower-spinner/images/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/flower-spinner/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/flower-spinner/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/flower-spinner/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/flower-spinner/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc/did-mount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc/experiment/with-enhance-router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc/set-title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc/wx-share.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images-slider/demo/basic.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images-slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images-slider/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sms-code-input/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sms-code-input/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/toast/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/toast/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/toggle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/toggle/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/toggle/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/toggle/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/videoPlayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video-player/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/videoPlayer/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video-player/index.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +20,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/video-player/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="893">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -58,8 +32,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/slider/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+            <state relative-caret-position="1710">
+              <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -70,7 +44,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LoginRegisterWrapper/login/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2964">
+            <state>
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -81,7 +55,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LoginRegisterWrapper/modal/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-700">
+            <state>
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -92,8 +66,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/mobile-layout/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="228">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -122,7 +96,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/infinite-scroll/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="608">
               <caret line="35" column="17" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="17" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
@@ -134,8 +108,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/link/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="228">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -147,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/mobile-layout/index.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -355,6 +329,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -515,6 +496,7 @@
       <workItem from="1547456204645" duration="6148000" />
       <workItem from="1547515943633" duration="43605000" />
       <workItem from="1547774668207" duration="2183000" />
+      <workItem from="1547776924235" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -831,11 +813,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547725188643</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="1.重新整理components目录，更新readme.md文件">
+      <created>1547777149691</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1547777149691</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182245000" />
+    <option name="totallyTimeSpent" value="182488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
@@ -846,18 +835,18 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24806201" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.5681063" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33444077" />
     </layout>
@@ -875,7 +864,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增flip-tips工具类库，提示横屏浏览或者竖屏浏览" />
     <MESSAGE value="新增rem.js工具类库，实现移动端弹性布局" />
     <MESSAGE value="工具类库：&#10;1.data-utils.js新增htmlToArray方法，用于html集合转数组&#10;2.新增copy-utils.js，用于拷贝相关类库（深拷贝）" />
     <MESSAGE value="工具类库：&#10;新增设计模式工具类库designing-mode-utils" />
@@ -900,7 +888,8 @@
     <MESSAGE value="data-utils新增api&#10;countingInstancesOfObject&#10;计算数组的每个项的个数" />
     <MESSAGE value="data-utils新增api&#10;GroupByProperty：&#10;根据对象数组的某个对象值属性进行分组&#10;removeDuplicate：&#10;去重&#10;&#10;designing-mode-utils新增api&#10;debounceDecorator：&#10;es7-decorator实现节流模式" />
     <MESSAGE value="1.webpack.common.js修改css-loader配置，以支持antd-mobile&#10;2..babelrc新增import配置，以支持antd的按需加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.webpack.common.js修改css-loader配置，以支持antd-mobile&#10;2..babelrc新增import配置，以支持antd的按需加载" />
+    <MESSAGE value="1.重新整理components目录，更新readme.md文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.重新整理components目录，更新readme.md文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1018,9 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,9 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,9 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,72 +1143,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/video-player/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="893">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/images-slider/demo/basic.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sms-code-input/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc/did-mount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc/set-title.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc/wx-share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc/experiment/with-enhance-router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1536">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/images-slider/demo/basic.md" />
+    <entry file="file://$PROJECT_DIR$/src/components/sms-code-input/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc/did-mount.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc/set-title.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc/wx-share.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc/experiment/with-enhance-router.js" />
     <entry file="file://$PROJECT_DIR$/src/components/slider/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        <state relative-caret-position="1710">
+          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -1237,7 +1169,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoginRegisterWrapper/login/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2964">
+        <state>
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -1246,7 +1178,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoginRegisterWrapper/modal/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
+        <state>
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -1256,14 +1188,14 @@
     <entry file="file://$PROJECT_DIR$/src/components/mobile-layout/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/mobile-layout/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -1286,7 +1218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/infinite-scroll/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
+        <state relative-caret-position="608">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="17" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
@@ -1296,8 +1228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/link/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="228">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>

@@ -94,7 +94,7 @@ plugins: [
 
 # REACT组件#
 ##### 表单组件@src/component/form
-##### 弹窗组件：
+##### 弹窗组件@src/component/modal：
 - modal-dialog:
 	优点：无需外部控制弹窗的显隐，使用组件内部state控制，减少业务耦合
 	以static方法暴露一个show方法，巧妙使用自定义事件（document.dispatchEvent）方法实现参数传递

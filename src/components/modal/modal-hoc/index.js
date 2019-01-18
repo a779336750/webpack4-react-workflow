@@ -1,56 +1,55 @@
-import React from 'react';
-import Modal from '../../modal';
-const ModalHOC = (extraProps = {}) => Component =>
-  class extends React.PureComponent {
-    componentDidMount() {
-      const { visible } = this.props;
-      if (!visible) {
-        this.handleWindowOnLoad = () => {
-          // noinspection JSUnusedLocalSymbols
-          const { visible, ...restProps } = this.props;
-          const { close } = Modal.append(() => (
-            // display: none 背景图片不加载
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+import styles from './index.less';
+const modalHoc = WrappedComponent => {
+  class EnhancedComponent extends React.Component {
+    render() {
+      return (
+        <div className={styles.modal}>
+          <div className={styles.mask} />
+          <div className={styles.content}>
             <div
-              style={{
-                width: 0,
-                height: 0,
-                visibility: 'hidden',
-                overflow: 'hidden',
-                position: 'absolute'
+              className={styles.close}
+              onClick={() => {
+                this.props.closeHandle();
               }}
             >
-              <Component {...restProps} />
+              X
             </div>
-          ));
-
-          this.close = close;
-        };
-        window.addEventListener('load', this.handleWindowOnLoad);
-      }
-    }
-
-    removeWindowOnLoadListener() {
-      window.removeEventListener('load', this.handleWindowOnLoad);
-    }
-
-    componentWillUpdate() {
-      const { visible } = this.props;
-      visible && this.removeWindowOnLoadListener();
-    }
-
-    componentWillUnmount() {
-      this.close && this.close();
-      this.removeWindowOnLoadListener();
-    }
-
-    render() {
-      const { props } = this;
-      return (
-        <Modal {...extraProps} {...props}>
-          <Component {...props} />
-        </Modal>
+            <WrappedComponent />
+          </div>
+        </div>
       );
     }
+  }
+  EnhancedComponent.show = params => {
+    let container = document.createElement('div');
+    document.body.appendChild(container);
+    function closeHandle() {
+      ReactDOM.unmountComponentAtNode(container);
+      document.body.removeChild(container);
+      container = null;
+    }
+    ReactDOM.render(
+      <EnhancedComponent {...params} closeHandle={closeHandle} />,
+      container
+    );
   };
 
-export default ModalHOC;
+  return EnhancedComponent;
+};
+export default modalHoc;
+/**
+ * 使用方法：
+ * *
+ * 引入：import ModalHoc from '@src/components/modal-hoc';
+ * 使用es7 decorator对业务组件进行封装
+ * @ModalHoc
+ * class HelloWorld extends React.Component {
+ *  render() {
+ *    return <div>hello world</div>;
+ *  }
+ * }
+ * 弹出弹窗
+ * HelloWorld.show()
+ */
