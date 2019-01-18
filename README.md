@@ -128,5 +128,19 @@ plugins: [
 - collapse
 - flower-spinner
 
-#...
-
+#工具函数@src\utils
+##### 通用类库@src\utils\common.js
+##### cookie相关工具@src\utils\cookie.js
+##### 拷贝相关工具@src\utils\copy-utils.js
+##### 数据相关工具@src\utils\data-utils.js
+##### 常用设计模式相关工具@src\utils\designing-mode-utils.js
+##### 用户设备相关相关工具@src\utils\device-utils.js
+##### 环境相关相关工具@src\utils\env.utils.js
+##### error相关工具@src\utils\error-utils.js
+##### 事件相关工具@src\utils\event-utils.js
+##### 屏幕翻转相关工具@src\utils\flip-tips.js
+##### jsonp相关工具(promise实现)@src\utils\jsonp-promise.js
+##### lodash相关工具@src\utils\lodash-utils.js
+##### 弹性布局相关工具@src\utils\rem-utils.js
+##### 类型相关工具@src\utils\type-utils.js
+##### 微信相关工具@src\utils\wechat-utils.js
