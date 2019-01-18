@@ -91,3 +91,42 @@ plugins: [
   new ExtractTextPlugin('style.css')
 ]
 ```
+
+# REACT组件#
+##### 表单组件@src/component/form
+##### 弹窗组件：
+- modal-dialog:
+	优点：无需外部控制弹窗的显隐，使用组件内部state控制，减少业务耦合
+	以static方法暴露一个show方法，巧妙使用自定义事件（document.dispatchEvent）方法实现参数传递
+	
+- modal-hoc:
+
+	使用高阶组件的方式，将业务组件包裹成弹窗
+```
+  //包裹业务组件
+  @ModalHoc
+  class HelloWorld extends React.Component {
+   render() {
+     return <div>hello world</div>;
+   }
+  }
+  //弹出弹窗
+  HelloWorld.show()
+```
+##### 评星组件@src\components\star-rating
+##### 移动端视频播放组件@src\components\video-player
+##### 全屏滚动组件@src\components\full-screen-scroll
+##### 监听触摸滑动组件@src\components\slider
+##### 登录注册相关组件@src\components\LoginRegisterWrapper
+##### 无限滚动组件@src\components\infinite-scroll
+##### 链接组件@src\components\link
+##### 无限滚动组件\components\link
+##### UI相关组件
+- toast
+- toggle
+- button
+- collapse
+- flower-spinner
+
+#...
+

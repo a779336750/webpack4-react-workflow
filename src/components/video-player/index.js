@@ -31,9 +31,9 @@ export default class Popup extends Component {
           this.popup = el;
         }}
       >
-        <div className={styles.mask} onClick={this.maskClick()}/>
+        <div className={styles.mask} onClick={this.maskClick()} />
         <div className={styles.videoWraper}>
-          <video controls src={videoLink}/>
+          <video controls src={videoLink} />
           <div
             className={styles.deleteBtn}
             ref={el => (this.videoIframe = el)}
@@ -42,7 +42,7 @@ export default class Popup extends Component {
         </div>
       </div>
     );
-    return <div>{isShow ? iframeWraper : <div/>}</div>;
+    return <div>{isShow ? iframeWraper : <div />}</div>;
   }
 }
 

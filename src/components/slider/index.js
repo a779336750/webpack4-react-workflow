@@ -2,6 +2,7 @@ import * as React from 'react';
 import './style/index.less';
 import classnames from 'classnames';
 import styles from './style/index.less';
+
 export default class ImagesSlider extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -88,7 +89,10 @@ export default class ImagesSlider extends React.PureComponent {
   render() {
     const { prefixCls, userClassName } = this.props;
     return (
-      <div className={classnames(prefixCls, userClassName, styles.slider)} ref={this.imageSlider}>
+      <div
+        className={classnames(prefixCls, userClassName, styles.slider)}
+        ref={this.imageSlider}
+      >
         {React.Children.map(this.props.children, child => {
           return child;
         })}
