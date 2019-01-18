@@ -92,7 +92,7 @@ plugins: [
 ]
 ```
 
-# REACT组件#
+# REACT组件
 ##### 表单组件@src/component/form
 ##### 弹窗组件@src/component/modal：
 - modal-dialog:
@@ -128,7 +128,7 @@ plugins: [
 - collapse
 - flower-spinner
 
-#工具函数@src\utils
+# 工具函数@src\utils
 ##### 通用类库@src\utils\common.js
 ##### cookie相关工具@src\utils\cookie.js
 ##### 拷贝相关工具@src\utils\copy-utils.js

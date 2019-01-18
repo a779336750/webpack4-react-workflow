@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/video-player/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/slider/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,14 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/link/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="209">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-utils.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/event-utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -327,14 +322,7 @@
               <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,19 +349,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\ui" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\form" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\page\main" />
-      <recent name="D:\study\个人积累\webpack-react-workflow" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\个人积累\webpack-react-workflow\src\page" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components\form" />
       <recent name="D:\study\个人积累\webpack-react-workflow" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\page\modal-list" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\modal" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\ui" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\form" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\page\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,7 +484,7 @@
       <workItem from="1547456204645" duration="6148000" />
       <workItem from="1547515943633" duration="43605000" />
       <workItem from="1547774668207" duration="2183000" />
-      <workItem from="1547776924235" duration="237000" />
+      <workItem from="1547776924235" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="eslint:&#10;parserOptions配置项新增&quot;legacyDecorators&quot;: true,用于es7装饰器的语法支持&#10;&#10;babelrc配置&#10;新增@babel/plugin-proposal-decorators插件，用于es7装饰器的转换&#10;新增插件@babel/plugin-proposal-object-rest-spread，用于解构赋值的转换">
       <created>1543214168893</created>
@@ -820,15 +808,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547777149691</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="1.重新整理components目录，更新readme.md文件">
+      <created>1547777261777</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1547777261777</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182488000" />
+    <option name="totallyTimeSpent" value="182949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22019078" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -838,7 +832,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.24806201" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5681063" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2908681" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -958,13 +952,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/error-utils.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/event-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/flip-tips.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1114,7 +1101,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modal-dialog/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/modal/modal-dialog/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
           <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
@@ -1124,7 +1111,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modal-hoc/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/modal/modal-hoc/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
@@ -1228,11 +1215,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/link/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="209">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/event-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
         </state>
       </provider>
     </entry>
