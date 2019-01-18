@@ -39,3 +39,13 @@ export function deepCopyByJSONParse(obj) {
   newObj = JSON.parse(JSON.stringify(obj));
   return newObj;
 }
+
+/**
+ * 浅拷贝
+ * @param obj:被拷贝的对象
+ */
+export function sarrowCopy(target) {
+  let newObj = {};
+  Object.assign(newObj, target);
+  return newObj;
+}

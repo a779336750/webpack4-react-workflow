@@ -1,7 +1,9 @@
 import React from 'react';
-import modalHoc from '@src/components/modal-hoc';
+import modalHoc from '@src/components/modal/modal-hoc';
 import { debounceDecorator } from '@src/utils/designing-mode-utils';
-import { removeDuplicate } from '@src/utils/data-utils';
+import { deepCopy } from '@src/utils/copy-utils';
+import { sarrowCopy } from '@src/utils/copy-utils';
+import ScrollToTop from '@src/components/scroll-to-top';
 import { autobind } from 'core-decorators';
 
 @modalHoc
@@ -18,7 +20,11 @@ class HelloWorld2 extends React.Component {
   }
 }
 export default class App extends React.Component {
-  componentDidMount() {}
+  componentDidMount() {
+    const obj = { a: 1, b: 2, c: { a: 1, b: 2 } };
+    let obj1 = sarrowCopy(obj);
+    console.log(obj.c === obj1.c);
+  }
 
   @debounceDecorator(300)
   showHi(name) {
@@ -32,6 +38,82 @@ export default class App extends React.Component {
     console.log('sacsaas');
   }
   render() {
-    return <div className={'main'}>jajajasacsacjs</div>;
+    return (
+      <div className={'main'}>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    );
   }
 }
