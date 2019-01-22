@@ -1,0 +1,124 @@
+//动画边框
+.animate_button_border {
+  .button {
+    background-color: #c47135;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+  }
+  .button:before,
+  .button:after {
+    border: 0 solid transparent;
+    transition: all 0.25s;
+    content: '';
+    height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+  .button:before {
+    border-top: 2px solid #c47135;
+    left: 0px;
+    top: -5px;
+  }
+  .button:after {
+    border-bottom: 2px solid #c47135;
+    bottom: -5px;
+    right: 0px;
+  }
+  .button:hover {
+    background-color: #c47135;
+  }
+  .button:hover:before,
+  .button:hover:after {
+    height: 100%;
+    width: 100%;
+  }
+}
+//清除浮动
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+//等比缩放
+.constantWidthToHeightRatio {
+  background: #333;
+  width: 50%;
+}
+.constantWidthToHeightRatio::before {
+  content: '';
+  //通过修改该padding-top修改比例
+  padding-top: 100%;
+  float: left;
+}
+.constantWidthToHeightRatio::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+//自定义滚动条
+.customScrollbar {
+  height: 70px;
+  overflow-y: scroll;
+}
+/* To style the document scrollbar, remove `.custom-scrollbar` */
+.customScrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.customScrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.customScrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+//自定义文本选择样式
+::selection {
+  background: aquamarine;
+  color: black;
+}
+
+//禁止选择
+.unselectable {
+  user-select: none;
+}
+
+//table实现水平垂直居中
+.center {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.center > span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+//更具自身背景生成阴影
+.dynamicShadow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(75deg, #6d78ff, #00ffb8);
+  z-index: 1;
+}
+.dynamic-shadow::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  top: 0.5rem;
+  filter: blur(0.4rem);
+  opacity: 0.7;
+  z-index: -1;
+}

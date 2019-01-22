@@ -3,6 +3,7 @@ import modalHoc from '@src/components/modal/modal-hoc';
 import { debounceDecorator } from '@src/utils/designing-mode-utils';
 import { deepCopy } from '@src/utils/copy-utils';
 import { sarrowCopy } from '@src/utils/copy-utils';
+import { htmlToArray } from '@src/utils/data-utils';
 import ScrollToTop from '@src/components/scroll-to-top';
 import { autobind } from 'core-decorators';
 
@@ -21,9 +22,8 @@ class HelloWorld2 extends React.Component {
 }
 export default class App extends React.Component {
   componentDidMount() {
-    const obj = { a: 1, b: 2, c: { a: 1, b: 2 } };
-    let obj1 = sarrowCopy(obj);
-    console.log(obj.c === obj1.c);
+    console.log(document.getElementsByTagName('div'));
+    console.log(htmlToArray(document.getElementsByTagName('div')));
   }
 
   @debounceDecorator(300)

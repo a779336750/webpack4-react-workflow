@@ -73,12 +73,10 @@ export function withoutProps(obj, keys) {
  * @param html_collection
  * @return {Array}
  */
-export function htmlToArray(html_collection) {
-  let arr = [];
-  for (let i = 0; i < html_collection.length; i++) {
-    arr[i] = html_collection[i];
-  }
-  return arr;
+export function htmlToArray(htmlCollection) {
+  return Array.prototype.slice.call(htmlCollection);
+  // 方法二:
+  // return Array.prototype.concat.apply([], htmlCollection);
 }
 
 /**
