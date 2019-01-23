@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="@src/utils/copy-utils.js&#10;新增浅拷贝">
-      <change afterPath="$PROJECT_DIR$/src/page/30s-css-test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/30s-css-test/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/useful-css/index.less" afterDir="false" />
+    <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="更新readme.md，新增常用css代码块">
+      <change afterPath="$PROJECT_DIR$/src/components/ui/progress/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/progress/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/antd-test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/antd-test/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/app/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/data-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data-utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,10 +23,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/mobile-layout/index.js">
+        <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/modal/modal-dialog/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="871">
+              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/modal/modal-hoc/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -37,25 +59,22 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/LoginRegisterWrapper/Confirm/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/ui/progress/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="266">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ui/progress/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -73,25 +92,10 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/30s-css-test/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/antd-test/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -105,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data-utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data-utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="171">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -117,20 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cookie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/cookie.js">
+      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rem-utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/rem-utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="665">
+              <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -148,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>index</find>
       <find>host</find>
       <find>模式</find>
       <find>rem</find>
@@ -178,6 +172,7 @@
       <find>debounceDecorator</find>
       <find>.0</find>
       <find>am-button</find>
+      <find>am-progress-bar</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -194,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/rem.js" />
-        <option value="$PROJECT_DIR$/src/utils/cookie.js" />
         <option value="$PROJECT_DIR$/src/utils/common.js" />
         <option value="$PROJECT_DIR$/src/utils/loadash-utils.js" />
         <option value="$PROJECT_DIR$/src/index.template.html" />
@@ -204,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/page/modal-test/index.js" />
         <option value="$PROJECT_DIR$/src/page/modal-test/modal/index.js" />
         <option value="$PROJECT_DIR$/src/page/modal-list/test/index.js" />
-        <option value="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" />
         <option value="$PROJECT_DIR$/webpack_dll.config.js" />
         <option value="$PROJECT_DIR$/webpack.dll.config.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -242,9 +234,12 @@
         <option value="$PROJECT_DIR$/src/page/app/index.js" />
         <option value="$PROJECT_DIR$/src/page/30s-css-test/index.js" />
         <option value="$PROJECT_DIR$/src/useful-css/index.less" />
-        <option value="$PROJECT_DIR$/src/page/antd-test/index.js" />
-        <option value="$PROJECT_DIR$/src/page/main/index.js" />
         <option value="$PROJECT_DIR$/src/utils/data-utils.js" />
+        <option value="$PROJECT_DIR$/src/page/main/index.js" />
+        <option value="$PROJECT_DIR$/src/page/antd-test/index.js" />
+        <option value="$PROJECT_DIR$/src/components/ui/progress/index.less" />
+        <option value="$PROJECT_DIR$/src/components/ui/progress/index.js" />
+        <option value="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" />
       </list>
     </option>
   </component>
@@ -299,6 +294,42 @@
               <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+              <item name="modal-dialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+              <item name="modal-hoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,26 +338,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="antd-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,19 +401,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\page\30s-css-test" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\useful-css" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\page" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\form" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components\modal" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components\ui" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components\form" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\page\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\ui" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\page\30s-css-test" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\useful-css" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\page" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -526,21 +537,7 @@
       <workItem from="1547515943633" duration="43605000" />
       <workItem from="1547774668207" duration="2183000" />
       <workItem from="1547776924235" duration="9446000" />
-      <workItem from="1548120635956" duration="987000" />
-    </task>
-    <task id="LOCAL-00002" summary="1.新增通用组件&#10;2.新增通用工具库">
-      <created>1545036824360</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1545036824360</updated>
-    </task>
-    <task id="LOCAL-00003" summary="新增类型工具库">
-      <created>1545045578392</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1545045578392</updated>
+      <workItem from="1548120635956" duration="8892000" />
     </task>
     <task id="LOCAL-00004" summary="新增data-utils，用于某些数据的转换">
       <created>1545100666127</created>
@@ -871,11 +868,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547779921153</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="@src/utils/data-utils.js&#10;新增html集合转数组的方法&#10;&#10;@src/useful-csss&#10;新增多种实用css的demo">
+      <created>1548121739446</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1548121739447</updated>
+    </task>
+    <task id="LOCAL-00052" summary="更新readme.md，新增常用css代码块">
+      <created>1548121857605</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1548121857605</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192678000" />
+    <option name="totallyTimeSpent" value="200583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
@@ -915,8 +926,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工具类库：&#10;新增设计模式工具类库designing-mode-utils" />
-    <MESSAGE value="htmlWebpackPlugin插件新增hash配置，动态添加每次compile后的hash，防止引用缓存的外部文件问题" />
     <MESSAGE value="dev-server新增mock数据选项&#10;新增mock/index.js，用于配置mock数据" />
     <MESSAGE value="新增react-router配置" />
     <MESSAGE value="新增widthRouter配置,方便每个组件都可使用history,location，match三个props" />
@@ -940,7 +949,9 @@
     <MESSAGE value="1.重新整理components目录，更新readme.md文件" />
     <MESSAGE value="1.readme.md更新" />
     <MESSAGE value="@src/utils/copy-utils.js&#10;新增浅拷贝" />
-    <option name="LAST_COMMIT_MESSAGE" value="@src/utils/copy-utils.js&#10;新增浅拷贝" />
+    <MESSAGE value="@src/utils/data-utils.js&#10;新增html集合转数组的方法&#10;&#10;@src/useful-csss&#10;新增多种实用css的demo" />
+    <MESSAGE value="更新readme.md，新增常用css代码块" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新readme.md，新增常用css代码块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,12 +970,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/env.utils.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/error-utils.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/flip-tips.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-479">
@@ -1071,26 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modal/modal-dialog/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modal/modal-hoc/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/star-rating/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1183,13 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/event-utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -1262,16 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/antd-test/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1282,22 +1250,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/data-utils.js">
+    <entry file="file://$PROJECT_DIR$/src/page/antd-test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/progress/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/progress/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modal/modal-dialog/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modal/modal-hoc/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

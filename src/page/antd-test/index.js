@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'antd-mobile';
 import { mobileRemSizing } from '@src/utils/rem-utils';
+import Progress from '@src/components/ui/progress';
 import styles from './index.less';
 export default class App extends React.Component {
   componentDidMount() {
@@ -10,7 +11,10 @@ export default class App extends React.Component {
   render() {
     return (
       <div className={'main'}>
-        <Button>scacascs</Button>
+        <br />
+        <br />
+        <br />
+        <Progress />
       </div>
     );
   }

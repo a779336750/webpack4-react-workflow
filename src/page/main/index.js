@@ -24,8 +24,12 @@ export default class App extends React.Component {
   componentDidMount() {
     console.log(document.getElementsByTagName('div'));
     console.log(htmlToArray(document.getElementsByTagName('div')));
+    // this.showLength('sacassc');
+    console.log(this.showLength.length);
   }
-
+  showLength(text) {
+    console.log(this.showLength.length);
+  }
   @debounceDecorator(300)
   showHi(name) {
     console.log('hahahahahahaha,' + name);
