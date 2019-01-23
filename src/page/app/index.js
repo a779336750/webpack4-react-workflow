@@ -3,12 +3,14 @@ import { hot } from 'react-hot-loader';
 import { Route, Router, Switch, HashRouter } from 'react-router-dom';
 import Main from '../main';
 import AntdTest from '../antd-test';
+import UtilsTest from '../utils-test';
 import CssTest from '../30s-css-test';
 import { withRouter } from 'react-router';
 const ROUTE_NAME = {
   MODAL: '/modal',
   ANTD_TEST: '/antd-test',
   CSS_TEST: '/css-test',
+  UTILS_TEST: '/utils-test',
   MAIN: '/'
 };
 
@@ -30,6 +32,9 @@ class App extends React.Component {
         </HashRouter>
         <HashRouter>
           <Route exact path={ROUTE_NAME.CSS_TEST} component={CssTest} />
+        </HashRouter>
+        <HashRouter>
+          <Route exact path={ROUTE_NAME.UTILS_TEST} component={UtilsTest} />
         </HashRouter>
       </div>
     );

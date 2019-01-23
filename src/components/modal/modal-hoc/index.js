@@ -16,7 +16,7 @@ const modalHoc = WrappedComponent => {
             >
               X
             </div>
-            <WrappedComponent />
+            <WrappedComponent closeHandle={this.props.closeHandle} />
           </div>
         </div>
       );
