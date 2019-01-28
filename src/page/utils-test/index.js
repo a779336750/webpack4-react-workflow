@@ -1,11 +1,13 @@
 import React from 'react';
 import { mobileRemSizing } from '@src/utils/rem-utils';
 import { ary } from '@src/utils/adapter-utils';
-import { over } from '@src/utils/adapter-utils';
+import { overArgs } from '@src/utils/adapter-utils';
 export default class App extends React.Component {
   componentDidMount() {
-    const name = over(this.showName.bind(this), this.displayName.bind(this));
-    name('dick');
+    const square = n => n * n;
+    const double = n => n * 2;
+    const fn = overArgs((x, y) => [x, y], [square, double]);
+    console.log(fn(9, 3)); // [81, 6]
   }
   showName(name) {
     console.log(this);

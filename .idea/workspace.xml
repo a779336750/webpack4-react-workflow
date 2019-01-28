@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="更新readme.md，新增常用css代码块">
-      <change afterPath="$PROJECT_DIR$/src/page/utils-test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/utils-test/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/adapter-utils.js" afterDir="false" />
+    <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/utils-test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/utils-test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/adapter-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/adapter-utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +22,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/utils-test/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -42,8 +39,8 @@
       <file leaf-file-name="adapter-utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils/adapter-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            <state relative-caret-position="209">
+              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -52,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/ui/progress/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -168,8 +165,8 @@
         <option value="$PROJECT_DIR$/src/components/modal/modal-hoc/index.js" />
         <option value="$PROJECT_DIR$/src/page/code-test/index.js" />
         <option value="$PROJECT_DIR$/src/page/app/index.js" />
-        <option value="$PROJECT_DIR$/src/utils/adapter-utils.js" />
         <option value="$PROJECT_DIR$/src/page/utils-test/index.js" />
+        <option value="$PROJECT_DIR$/src/utils/adapter-utils.js" />
       </list>
     </option>
   </component>
@@ -195,11 +192,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1853" />
+    <option name="width" value="1280" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -465,14 +461,7 @@
       <workItem from="1547515943633" duration="43605000" />
       <workItem from="1547774668207" duration="2183000" />
       <workItem from="1547776924235" duration="9446000" />
-      <workItem from="1548120635956" duration="18297000" />
-    </task>
-    <task id="LOCAL-00005" summary="修改工具类库的目录">
-      <created>1545101283863</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1545101283863</updated>
+      <workItem from="1548120635956" duration="25048000" />
     </task>
     <task id="LOCAL-00006" summary="修改工具类库的目录">
       <created>1545101304655</created>
@@ -810,22 +799,29 @@
       <option name="project" value="LOCAL" />
       <updated>1548210832502</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="新增适配器工具函数：@src/utils/adapter-uitls">
+      <created>1548236360652</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1548236360652</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209988000" />
+    <option name="totallyTimeSpent" value="216739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22019078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1459431" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24802706" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24363233" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2908681" />
@@ -854,7 +850,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增react-router配置" />
     <MESSAGE value="新增widthRouter配置,方便每个组件都可使用history,location，match三个props" />
     <MESSAGE value="新增babelrc插件配置：&#10;    &quot;@babel/plugin-syntax-class-properties&quot;,&#10;    &quot;transform-class-properties&quot;&#10;解决了class的箭头函数方法报错" />
     <MESSAGE value="webpack.common.js新增resolve配置项&#10;新增alias配置项，用于配置一些别名，如：&#10;@src 等于项目下的src目录" />
@@ -879,7 +874,8 @@
     <MESSAGE value="@src/utils/data-utils.js&#10;新增html集合转数组的方法&#10;&#10;@src/useful-csss&#10;新增多种实用css的demo" />
     <MESSAGE value="更新readme.md，新增常用css代码块" />
     <MESSAGE value="新增progress组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增progress组件" />
+    <MESSAGE value="新增适配器工具函数：@src/utils/adapter-uitls" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增适配器工具函数：@src/utils/adapter-uitls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1231,7 +1227,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/ui/progress/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -1243,8 +1239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/utils-test/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1253,8 +1249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/adapter-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="209">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
         </state>
       </provider>
     </entry>

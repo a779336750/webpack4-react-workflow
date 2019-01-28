@@ -34,3 +34,17 @@ export const collectInto = fn => (...args) => fn(args);
  */
 export const over = (...fns) => (...args) =>
   fns.map(fn => fn.apply(null, args));
+
+/**
+ * 指定函数参数的转换方式，对参数进行转换，返回一个新的函数
+ * @param fn
+ * @param transforms
+ * @return {function(...[*]): *}
+ * 使用方式如：
+ * const square = n => n * n;
+ * const double = n => n * 2;
+ * const fn = overArgs((x, y) => [x, y], [square, double]);
+ * console.log(fn(9, 3)); // [81, 6]
+ */
+export const overArgs = (fn, transforms) => (...args) =>
+  fn(...args.map((val, i) => transforms[i](val)));
