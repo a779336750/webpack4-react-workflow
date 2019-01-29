@@ -10,7 +10,7 @@ module.exports = merge(common, {
     contentBase: './dev',
     hot: false,
     inline: true,
-    port: 8084,
+    port: 8085,
     /**
      * before在服务内部的所有其他中间件之前， 提供执行自定义中间件的功能。 这可以用来配置自定义处理程序
      * @param app

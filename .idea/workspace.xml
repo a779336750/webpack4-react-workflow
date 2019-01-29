@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdd5d41-86ce-49f3-babb-d508772511f4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/sort-utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/utils-test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/utils-test/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/adapter-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/adapter-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/useful-css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/useful-css/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,11 +38,32 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="adapter-utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adapter-utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/adapter-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+            <state relative-caret-position="285">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sort-utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/sort-utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -53,6 +76,33 @@
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/useful-css/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1653">
+              <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.dev.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/mocker/index.js" />
         <option value="$PROJECT_DIR$/mocker/index.js" />
         <option value="$PROJECT_DIR$/src/page/modal-test/index.js" />
         <option value="$PROJECT_DIR$/src/page/modal-test/modal/index.js" />
@@ -148,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/components/modal-hoc/index.less" />
         <option value="$PROJECT_DIR$/src/utils/designing-mode-utils.js" />
         <option value="$PROJECT_DIR$/src/components/modal-hoc/index.js" />
-        <option value="$PROJECT_DIR$/webpack.dev.js" />
         <option value="$PROJECT_DIR$/src/components/toast/index.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/components/images-slider/index.js" />
@@ -156,9 +204,7 @@
         <option value="$PROJECT_DIR$/webpack.common.js" />
         <option value="$PROJECT_DIR$/src/components/scroll-to-top/index.js" />
         <option value="$PROJECT_DIR$/src/page/30s-css-test/index.js" />
-        <option value="$PROJECT_DIR$/src/useful-css/index.less" />
         <option value="$PROJECT_DIR$/src/utils/data-utils.js" />
-        <option value="$PROJECT_DIR$/src/page/main/index.js" />
         <option value="$PROJECT_DIR$/src/page/antd-test/index.js" />
         <option value="$PROJECT_DIR$/src/components/ui/progress/index.less" />
         <option value="$PROJECT_DIR$/src/components/ui/progress/index.js" />
@@ -167,6 +213,10 @@
         <option value="$PROJECT_DIR$/src/page/app/index.js" />
         <option value="$PROJECT_DIR$/src/page/utils-test/index.js" />
         <option value="$PROJECT_DIR$/src/utils/adapter-utils.js" />
+        <option value="$PROJECT_DIR$/src/useful-css/index.less" />
+        <option value="$PROJECT_DIR$/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/src/utils/sort-utils.js" />
+        <option value="$PROJECT_DIR$/src/page/main/index.js" />
       </list>
     </option>
   </component>
@@ -193,7 +243,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1853" />
+    <option name="x" value="1920" />
     <option name="width" value="1280" />
     <option name="height" value="1024" />
   </component>
@@ -220,27 +270,6 @@
               <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="progress" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,14 +277,7 @@
               <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="utils-test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webpack-react-workflow" type="b2602c69:ProjectViewProjectNode" />
@@ -325,19 +347,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\modal" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\ui" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\form" />
-      <recent name="D:\study\个人积累\webpack-react-workflow\src\page\main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\个人积累\webpack-react-workflow\src\page" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components\ui" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\page\30s-css-test" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\useful-css" />
       <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\modal" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\ui" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\components\form" />
+      <recent name="D:\study\个人积累\webpack-react-workflow\src\page\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -462,13 +484,7 @@
       <workItem from="1547774668207" duration="2183000" />
       <workItem from="1547776924235" duration="9446000" />
       <workItem from="1548120635956" duration="25048000" />
-    </task>
-    <task id="LOCAL-00006" summary="修改工具类库的目录">
-      <created>1545101304655</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1545101304655</updated>
+      <workItem from="1548659974368" duration="4290000" />
     </task>
     <task id="LOCAL-00007" summary="新增device-utils工具类库，用于判断当前设备类型">
       <created>1545102425364</created>
@@ -806,23 +822,30 @@
       <option name="project" value="LOCAL" />
       <updated>1548236360652</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="新增常用css小技巧&#10;@src/useful-css/index.less">
+      <created>1548660176061</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1548660176061</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216739000" />
+    <option name="totallyTimeSpent" value="221029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1920" y="0" width="1280" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1459431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22302738" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24363233" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2433984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2908681" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -850,7 +873,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增widthRouter配置,方便每个组件都可使用history,location，match三个props" />
     <MESSAGE value="新增babelrc插件配置：&#10;    &quot;@babel/plugin-syntax-class-properties&quot;,&#10;    &quot;transform-class-properties&quot;&#10;解决了class的箭头函数方法报错" />
     <MESSAGE value="webpack.common.js新增resolve配置项&#10;新增alias配置项，用于配置一些别名，如：&#10;@src 等于项目下的src目录" />
     <MESSAGE value="webpack.common.js新增resolve配置项&#10;新增modules配置项，指定第三方modules的搜索目录，避免层层查找" />
@@ -875,7 +897,8 @@
     <MESSAGE value="更新readme.md，新增常用css代码块" />
     <MESSAGE value="新增progress组件" />
     <MESSAGE value="新增适配器工具函数：@src/utils/adapter-uitls" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增适配器工具函数：@src/utils/adapter-uitls" />
+    <MESSAGE value="新增常用css小技巧&#10;@src/useful-css/index.less" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增常用css小技巧&#10;@src/useful-css/index.less" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,13 +917,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/wechat-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/antd-mobile/lib/index.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -946,13 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1100,9 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,20 +1133,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/useful-css/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1177,16 +1169,6 @@
           <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1249,8 +1231,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/adapter-utils.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/useful-css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/sort-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/main/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
